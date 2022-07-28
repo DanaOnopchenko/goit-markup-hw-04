@@ -344,18 +344,15 @@ img {
   height: 92px;
   border: 1px solid var(--icons-color);
   border-radius: 4px;
+  color: var(--icons-color);
 }
 .clients-icons {
-  fill: var(--icons-color);
+  fill: currentColor;
 }
 .clients-link:hover,
 .clients-link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
-}
-.clients-icons:hover,
-.clients-icons:focus {
-  fill: currentColor;
 }
 
 /* footer */
